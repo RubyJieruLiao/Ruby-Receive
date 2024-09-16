@@ -1,0 +1,36 @@
+-- Job Summary -------------------------------------------------------
+Job Id: 7771654.pbsserver for user jlia0386 in queue normal
+Job Name: run2K54.pbs
+Project: RDS-FEI-TB_NN_INFOTHEORY-RW
+Exit Status: 0
+Job run as chunks (hpc160:ncpus=1:mem=8388608kb)
+Walltime requested:   20:00:00 :      Walltime used:   06:42:24
+                               :   Walltime percent:      33.5%
+-- Nodes Summary -----------------------------------------------------
+-- node hpc160 summary
+    Cpus requested:          1 :          Cpus used:       0.95
+          Cpu Time:   06:21:37 :        Cpu percent:      94.8%
+     Mem requested:      8.0GB :           Mem used:    231.8MB
+                               :        Mem percent:       2.8%
+
+-- WARNINGS ----------------------------------------------------------
+
+** Low Walltime utilisation.  While this may be normal, it may help to check the
+** following:
+**   Did the job parameters specify more walltime than necessary? Requesting
+**   lower walltime could help your job to start sooner.
+**   Did your analysis complete as expected or did it crash before completing?
+**   Did the application run more quickly than it should have? Is this analysis
+**   the one you intended to run?
+** 
+** Low Memory utilisation on hpc160. While this may be normal, it may help to check
+** the following:
+**   Did the job parameters specify too much memory? Requesting less RAM could
+**   help your job to start sooner.
+**   Did you use MPI and was the work distributed correctly? Correcting this
+**   could allow your job to run using less RAM in each chunk.
+**   Did your analysis complete as expected or did it crash before completing?
+**   Did the application use less RAM than it should have? Is this analysis the
+**   one you intended to run?
+**
+-- End of Job Summary ------------------------------------------------
